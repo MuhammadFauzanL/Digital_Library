@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/image/Buku.jpg">
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header class="library-header">
+        <h1 class="library-title">Digital Library</h1>
+        <nav class="library-navigation">
+            <a href="#home" onclick="scrollPage('home')">Home</a>
+            <a href="#about" onclick="scrollPage('about')">About</a>
+            <a href="#collections" onclick="scrollPage('collections')">Collections</a>
+            <a href="#contact" onclick="scrollPage('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-library">
+        <section class="library-top" id="home">
+            <div class="library-container">
+                <div class="content">
+                    <h2>Welcome to Digital Library</h2>
+                    <p>Welcome to our digital library, where you can explore a vast collection of books and resources
+                        covering various subjects and topics. Dive into the world of knowledge and discovery with us!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-library" id="about">
+            <h2>About</h2>
+            <div class="about-login">
+                <article class="library-about">
+                    <p>Learn more about our digital library and our mission to provide access to information and
+                        learning resources for everyone, anywhere, anytime.</p>
+                </article>
+
+                <aside class="login-box">
+                    <h3>Sign In</h3>
+                    <form action="">
+                        <div class="input">
+                            <i data-feather="user"></i>
+                            <input type="text" placeholder="Username" class="input-field">
+                        </div>
+                        <div class="input">
+                            <i data-feather="lock"></i>
+                            <input type="password" placeholder="Password" class="input-field">
+                        </div>
+                        <button type="submit" class="box-things">Sign In</button>
+                    </form>
+                </aside>
+            </div>
+        </section>
+
+        <section class="collections-library" id="collections">
+            <div class="Collections">
+                <h2>Collections</h2>
+                <p>Explore our diverse collections of books and resources, ranging from classic literature to
+                    contemporary studies. There's something for everyone!</p>
+            </div>
+            <div class="row">
+                <article class="card">
+                    <img src="assets/image/Buku.jpg" alt="Book 1">
+                    <div class="detail-book">
+                        <h3 class="titlel">Book 1</h3>
+                        <p class="dec-book">Naruto (ナルト) adalah sebuah serial manga karya Masashi Kishimoto yang
+                            diadaptasi menjadi serial anime. Manga Naruto bercerita seputar kehidupan tokoh utamanya,
+                            Naruto Uzumaki, seorang ninja yang hiperaktif, periang, dan ambisius yang ingin mewujudkan
+                            keinginannya untuk mendapatkan gelar Hokage, pemimpin dan ninja terkuat di desanya. .</p>
+                        <a href="pages/Buku.html" class="box-things">Read Now</a>
+                    </div>
+                </article>
+                <article class="card">
+                  <img src="assets/image/Buku.jpg" alt="Book 2">
+                  <div class="detail-book">
+                      <h3 class="titlel">Book 2</h3>
+                      <p class="dec-book">Naruto (ナルト) adalah sebuah serial manga karya Masashi Kishimoto yang
+                         diadaptasi menjadi serial anime. Manga Naruto bercerita seputar kehidupan tokoh utamanya, Naruto Uzumaki, seorang ninja yang hiperaktif, periang, dan ambisius yang ingin mewujudkan keinginannya 
+                        untuk mendapatkan gelar Hokage, pemimpin dan ninja terkuat di desanya. .</p>
+                      <a href="pages/Buku.html" class="box-things">Read Now</a>
+                  </div>
+              </article>  <article class="card">
+                <img src="assets/image/Buku.jpg" alt="Book 3">
+                <div class="detail-book">
+                    <h3 class="titlel">Book 3</h3>
+                    <p class="dec-book">Naruto (ナルト) adalah sebuah serial manga karya Masashi Kishimoto yang
+                       diadaptasi menjadi serial anime. Manga Naruto bercerita seputar kehidupan tokoh utamanya, Naruto Uzumaki, seorang ninja yang hiperaktif, periang, dan ambisius yang ingin mewujudkan keinginannya 
+                      untuk mendapatkan gelar Hokage, pemimpin dan ninja terkuat di desanya. .</p>
+                    <a href="pages/Buku.html" class="box-things">Read Now</a>
+                </div>
+            </article>  <article class="card">
+              <img src="assets/image/Buku.jpg" alt="Book 4">
+              <div class="detail-book">
+                  <h3 class="titlel">Book 4</h3>
+                  <p class="dec-book">Naruto (ナルト) adalah sebuah serial manga karya Masashi Kishimoto yang
+                     diadaptasi menjadi serial anime. Manga Naruto bercerita seputar kehidupan tokoh utamanya, Naruto Uzumaki, seorang ninja yang hiperaktif, periang, dan ambisius yang ingin mewujudkan keinginannya 
+                    untuk mendapatkan gelar Hokage, pemimpin dan ninja terkuat di desanya. .</p>
+                  <a href="pages/Buku.html" class="box-things">Read Now</a>
+              </div>
+          </article>
+            </div>
+        </section>
+
+        <section class="contact-library" id="contact">
+            <div class="text-contact">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or feedback, feel free to reach out to us. We're here to assist you!</p>
+            </div>
+            <div class="row contact-form-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311709235512!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1672408575523!5m2!1sen!2sid"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+                <form action="" class="contact-form">
+                    <div class="input">
+                        <i data-feather="user"></i>
+                        <input type="text" placeholder="Name" class="input-field">
+                    </div>
+                    <div class="input">
+                        <i data-feather="mail"></i>
+                        <input type="email" placeholder="Email" class="input-field">
+                    </div>
+                    <div class="input">
+                        <i data-feather="phone"></i>
+                        <input type="text" placeholder="Phone Number" class="input-field">
+                    </div>
+                    <div class="input">
+                        <i data-feather="message-circle"></i>
+                        <textarea placeholder="Feedback" class="input-field textarea-field"></textarea>
+                    </div>
+                    <button type="submit" class="box-things">Send!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="profile-creator">
+            <h2>Creator Information</h2>
+            <div class="row">
+                <aside class="photo-creator">
+                    <img src="../assets/image/Foto.jpg" alt="Muhammad Fauzan Lubada's Photo">
+                </aside>
+                <article class="info-creator">
+                    <p>Name: Muhammad Fauzan Lubada</p>
+                    <p>Birth Year: 2004</p>
+                    <p>Location: Bandung</p>
+                    <p>Hobbies: Playing Guitar, Sports</p>
+                    <p>Status: Student</p>
+                </article>
+            </div>
+        </section>
+
+        <aside class="media-box">
+            <div class="social-box">
+                <h3>Instagram</h3>
+                <a href="https://www.instagram.com/mfauzanl_/"><img src="../assets/image/Instagram (1).jpg"
+                        alt="Instagram"></a>
+            </div>
+            <div class="social-box">
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/muhammad-lubada-/"><img src="../assets/image/Lin.jpg"
+                        alt="LinkedIn"></a>
+            </div>
+            <div class="social-box">
+                <h3>GitHub</h3>
+                <a href="https://github.com/MuhammadFauzanL"><img src="../assets/image/GitHub.jpg" alt="GitHub"></a>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="library-footer">
+        <div class="social">
+            <a href="https://www.instagram.com/mfauzanl_/"><i data-feather="instagram"></i></a>
+            <a href="https://github.com/MuhammadFauzanL"><i data-feather="github"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-lubada-/"><i data-feather="linkedin"></i></a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="pages/creator-Page.html">Muhammad Fauzan Lubada</a>. &copy; 2024.</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="JS/set.js"></script>
+</body>
+
+</html>
